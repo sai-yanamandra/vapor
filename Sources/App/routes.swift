@@ -58,7 +58,8 @@ public func routes(_ router: Router) throws {
         //let userInfo = try req.content.decode(UserInfoData.self)
         //let info = try req.parameters.next(UserInfoData.self)
         //return "Hello \(userInfo.name), you are \(userInfo.age)"
-        return "Hello \(userInfo.name), you are \(userInfo.age)"
+        //return "Hello \(userInfo.name), you are \(userInfo.age)"
+        return "Hello"
         
     }
     
